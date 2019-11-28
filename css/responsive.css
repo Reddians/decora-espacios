@@ -1,0 +1,48 @@
+/* Small devices (tablets, 768px) */
+@media (min-width: 768px) and (max-width: 1024px) { 
+	#featured-post h2{
+		font-size: 17px;
+		line-height: 20px;
+	}
+	#featured-post p{
+		font-size: 12px;
+		line-height: 15px;
+		padding: 0;
+	}
+	#featured-post .post-content{
+		padding: 10px 20px 9px;	
+	}
+
+	/*====== post =======*/
+	#featured-post .post-content {
+		position: relative;
+		left: auto;
+		right: auto;
+		bottom: auto;
+	}
+}
+
+@media (max-width: 480px){
+	
+	#featured-post .post-content .post-meta span{
+		padding: 0;
+	}
+	#featured-post .post-content {
+		position: relative;
+		left: auto;
+		right: auto;
+		bottom: auto;
+	}
+
+	
+}
+
+@media (min-width: 320px) and (max-width: 640px){
+		#featured-post .post-content {
+		position: relative;
+		left: auto;
+		right: auto;
+		bottom: auto;
+	}
+	
+}
